@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Diagnostica</title>
+    <link rel="stylesheet" href="alejandromeneses.css">
+</head>
+<body>
+    <fieldset class="fieldset">
+    <legend class="legend"><h1>REGISTRO</h1></legend>
+    <form class="formularios">
+        <label for="nombre">Nombre Completo</label><br>
+        <input type="text" name="nombre" placeholder="Nombre Completo"><br><br>
+
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" name="apellidos" placeholder="Apellidos"><br>
+
+        <div><br>
+        <label for="tipo_documento">Tipo de Documento</label><br>
+        <select name="tipo_documento" class="seleccion_centrada">
+            <option value="Seleccion">Seleccione...</option>
+            <option value="CC">Cédula de Ciudadanía</option>
+            <option value="CE">Cédula de Extranjería</option>
+            <option value="PA">Pasaporte</option>
+        </select>
+        </div><br>
+
+        <label for="numero_documento">Numero de Documento</label><br>
+        <input type="number" name="numero_documento" placeholder="Numero de Documento"><br><br>
+
+        <label for="correo_electronico">Correo Electronico</label><br>
+        <input type="email" name="correo_electronico" placeholder="Correo Electronico"><br><br>
+
+        <label for="contraseña">Contraseña</label><br>
+        <input type="password" name="contraseña" placeholder="Contraseña"><br><br>
+
+        <label for="repetir_contraseña">Repita su Contraseña</label><br>
+        <input type="password" name="repetir_contraseña" placeholder="Repita su Contraseña"><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento</label><br>
+        <input type="date" name="fecha_nacimiento" class="fecha_centrada"><br><br>
+
+        <label for="lugar_nacimiento">Lugar de Nacimiento</label><br>
+        <input type="text" name="lugar_nacimiento" placeholder="Lugar de Nacimiento"><br><br>
+
+    
+        <input class="boton_registro" type="submit" value="Registrarse"><br><br>
+
+        </fieldset>
+    </form>
+</body>
+</html>
